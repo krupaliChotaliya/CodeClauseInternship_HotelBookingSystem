@@ -42,7 +42,7 @@ Welcome to the Hotel Booking System! This Java application, built using Java Swi
 
 1. **Clone the repository**:
    ```sh
-   git clone https://github.com/yourusername/hotel-booking-system.git
+   git clone https://github.com/krupaliChotaliya/CodeClauseInternship_HotelBookingSystem.git
    cd hotel-booking-system
    ```
    
