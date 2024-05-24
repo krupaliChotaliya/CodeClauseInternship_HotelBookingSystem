@@ -49,7 +49,7 @@ Welcome to the Hotel Booking System! This Java application, built using Java Swi
 2. **Compile and Run the Application**:
    ```sh
    javac -d bin src/**/*.java
-   java -cp bin com.yourpackage.Main
+   java -cp bin com.hotel.booking.Main
    ```
 
 ## Usage
