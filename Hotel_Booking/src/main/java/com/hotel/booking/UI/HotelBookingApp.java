@@ -149,12 +149,6 @@ public class HotelBookingApp {
                 Connection connection = DatabaseConnection.getConnection();
                 ReservationManager reservationManager = new ReservationManager(connection);
                 
-                // Check if room exists
-//                if (!reservationManager.roomExists(roomId)) {
-//                    JOptionPane.showMessageDialog(null, "Room ID does not exist.", "Error", JOptionPane.ERROR_MESSAGE);
-//                    return;
-//                }
-
                 boolean success = reservationManager.createReservation(roomId, customerId, checkInDate, checkOutDate);
 
                 if (success) {
