@@ -24,6 +24,4 @@ public class ReservationManager {
             return false;
         }
     }
-
-    // Additional methods for modifying and cancelling reservations
 }
